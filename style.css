@@ -88,7 +88,7 @@ header{
     display: flex;
 }
 .header-menu-input:checked ~ .header-menu-label{
-    background-color: #8E2424;
+    background-color: var(--red);
 }
 .header-menu-input:checked ~ .header-menu-label span{
     background-image: url("assets/menuaberto.png");
@@ -300,6 +300,7 @@ header{
     color: var(--red);
     font-size: 0.875rem;
     font-weight: 600;
+    line-height: 1.5;
 }
 .final-container__avatar{
     display: flex;
@@ -340,7 +341,7 @@ footer{
 }
 .footer__head h1{
     font-size: 2.25rem;
-    color: black;
+    color: var(--black);
 }
 .footer__head-input{
     display: flex;
